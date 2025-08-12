@@ -1,3 +1,10 @@
+__version__ = "1.0.0"
+
+"""
+Un simple programa para realizar cálculos básicos
+"""
+
+
 def sumar(a, b):
     return a + b
 

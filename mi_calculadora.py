@@ -16,6 +16,10 @@ def restar(a, b):
 def multiplicar(a, b):
     return a * b
 
+def division(a, b):
+    if b == 0:
+        raise ValueError("No se puede dividir por cero")
+    return a / b
 
 print("¡Bienvenido a mi calculadora!")
 
@@ -27,3 +31,6 @@ print(f"El resultado de la resta es: {resultado_resta}")
 
 resultado_multiplicacion = multiplicar(10, 5)
 print(f"El resultado de la multiplicación es: {resultado_multiplicacion}")
+
+resultado_division = division(10, 5)
+print(f"El resultado de la división es: {resultado_division}")

@@ -19,7 +19,7 @@ def multiplicar(a, b):
 
 print("¡Bienvenido a mi calculadora!")
 
-resultado_suma = sumar(10, 5)
+resultado_suma = sumar(100, 50)
 print(f"El resultado de la suma es: {resultado_suma}")
 
 resultado_resta = restar(10, 5)
